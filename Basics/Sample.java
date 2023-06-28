@@ -47,6 +47,14 @@ Class File (.class) -> Classloader -> Bytecode Verifier -> Interpreter -> Runtim
 public class Sample {
 	public static void main(String[] args) {
 		System.out.println("abcd");
+		
+		/*
+		for (int i=0; i<args.length; i++) {
+			System.out.println(args[i]);
+		}
+		*/
+		
+		System.out.println(Integer.parseInt(args[0]) + Integer.parseInt(args[1]));
 	}
 }
 
@@ -56,6 +64,5 @@ data type:
 Primitive: boolean, char, byte, short, int, long, float and double.
 
 Non-Primitive: classes, interfaces and arrays.
-
 
 */
