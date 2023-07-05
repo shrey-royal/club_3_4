@@ -36,4 +36,7 @@ public class Task1 {
 Write a Java program to find all the distinct triplets such that the sum of all the three elements [x, y, z (x ≤ y ≤ z)] equal to a specified number.
 Sample array: [1, -2, 0, 5, -1, -4]
 Target value: 2. 
+
+Expected Output:
+[[1, 5, -4], [-2, 5, -1]] 
 */
