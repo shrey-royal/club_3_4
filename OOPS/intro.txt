@@ -1,0 +1,70 @@
+OOPS: Object Oriented Programming System
+
+OOPS is a programming paradigm based on the concept of “objects”, which may contain data, in the form of fields, often known as attributes; and code, in the form of procedures, often known as methods. A feature of objects is that an object’s procedures can access and often modify the data fields of the object with which they are associated (objects have a notion of “this” or “self”). In OOP, computer programs are designed by making them out of objects that interact with one another. OOP languages are diverse, but the most popular ones are class-based, meaning that objects are instances of classes, which also determine their types.
+
+OOPS Concepts
+
+There are four main OOPS concepts in Java. These are:
+    1. Inheritance
+    2. Polymorphism
+    3. Abstraction
+    4. Encapsulation
+
+Inheritance: Inheritance is the mechanism by which an object acquires the properties of another object. It supports the concept of hierarchical classification. Without the use of hierarchies, each object would need to define all its characteristics explicitly. However, by use of inheritance, an object need only define those qualities that make it unique within its class. It can inherit its general attributes from its parent. A new sub-class inherits all of the attributes of all of its ancestors.
+
+Polymorphism: Polymorphism is the ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object. Any Java object that can pass more than one IS-A test is considered to be polymorphic. In Java, all Java objects are polymorphic since any object will pass the IS-A test for their own type and for the class Object.
+
+Abstraction: Abstraction is a process where you show only “relevant” data and “hide” unnecessary details of an object from the user. Consider your mobile phone, you just need to know what buttons are to be pressed to send a message or make a call, What happens when you press a button, how your messages are sent, how your calls are connected is all abstracted away from the user.
+
+Encapsulation: Encapsulation is the mechanism of hiding of data implementation by restricting access to public methods. Instance variables are kept private and accessor methods are made public to achieve this. For example, we are hiding the implementation details of a class from other classes.
+
+Java OOPS Concepts
+
+Object and Class in Java:
+> Object and Class
+> Method
+> Constructor
+> Static keyword
+> this keyword
+
+Inheritance:
+> Single Inheritance
+> Multilevel Inheritance
+> Hierarchical Inheritance
+
+> Multiple Inheritance (Through Interface)
+> Hybrid Inheritance (Through Interface)
+
+
+
+Polymorphism:
+> Method Overloading
+> Method Overriding
+> Covariant Return Type
+> super keyword
+> Instance Initializer block
+> final keyword
+> Runtime Polymorphism in Java
+> Static Binding and Dynamic Binding
+> instanceof operator
+
+Abstraction:
+> Abstract class
+> Interface
+
+Encapsulation:
+> package
+> Access Modifiers
+> getter and setter methods
+
+
+String
+//Regex
+Exception Handling
+//Inner classes
+Multithreading
+/Synchronization
+File Handling
+/Serialization
+/Collection - Data Structure
+JDBC - Java to Database Connectivity
