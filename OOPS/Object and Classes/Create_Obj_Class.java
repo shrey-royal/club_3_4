@@ -98,6 +98,4 @@ Design a class Hierachy for the following:
 > Vehicle (Car, Bike, Truck, MotorCycle) -> Behaviour (Start, Stop, Accelerate, Brake)
 > Employee (Manager, Developer, Tester, HR) -> Behaviour (Work, Eat, Sleep)
 
-
-
 */
