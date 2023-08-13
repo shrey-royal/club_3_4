@@ -27,7 +27,6 @@ public class Demo {
     }
 }
 
-
 public class Final_KW {
     public static void main(String[] args) {
         // Parent p = new Parent();
@@ -36,7 +35,7 @@ public class Final_KW {
 
         Child c = new Child();
 
-        Demo d = new Demo();    // error: Demo() has private access in Demo
+        // Demo d = new Demo();    // error: Demo() has private access in Demo
     }
 }
 
